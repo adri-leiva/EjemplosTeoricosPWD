@@ -15,7 +15,7 @@
             echo "Tel&eacute;fono:". $tel ." <br />";
         }
         else{
-            echo "No se recibieron datos<br />";
+            echo "No se recibieron datos <br />";
         }
     ?>
 
