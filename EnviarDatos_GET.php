@@ -1,10 +1,12 @@
+<!--   Metodo totalmente transparente para el usuario */-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Enviar datos de FORM a PHP </title>
+    <title>Enviar datos GET </title>
 </head>
 <body>
-    <form id="form1" name="form1" method="post" action="RecibirDatos.php">
+    <form id="form1" name="form1" method="GET" action="RecibirDatos_GET.php">
         <!-- El atributo *id y *name deben tener el mismo nombre por convensión -->
        
         <!-- El atributo *method nos dice como vamos a enviar todos los objetos de nuestro formulario 
