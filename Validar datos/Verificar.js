@@ -7,6 +7,5 @@ function validar() {
     if(myDato == ""){
         respuesta=false;
     }
-    
     return respuesta;
 }
