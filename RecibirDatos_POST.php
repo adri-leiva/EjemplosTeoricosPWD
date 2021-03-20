@@ -7,6 +7,7 @@
     <h1>Procesa con $_POST</h1>
     
     <?php
+    print_r ($_POST);
         if ($_POST) {
             $nombre = $_POST['nombre_form'] ;
             $apellido = $_POST['apellido_form'] ;
@@ -22,4 +23,4 @@
     ?>
 
 </body>
-</html>
+</html> 
