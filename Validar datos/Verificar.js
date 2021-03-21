@@ -6,6 +6,7 @@ function validar() {
     
     if(myDato == ""){
         respuesta=false;
+        alert("Los datos son requeridos");
     }
     return respuesta;
 }
